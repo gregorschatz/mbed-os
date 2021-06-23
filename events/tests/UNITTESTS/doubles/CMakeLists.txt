@@ -12,6 +12,13 @@ target_include_directories(mbed-headers-events
         ${mbed-os_SOURCE_DIR}/events/include/events/internal
 )
 
+add_library(mbed-stubs-events-headers INTERFACE)
+
+target_include_directories(mbed-stubs-events-headers
+    INTERFACE
+        .
+)
+
 add_library(mbed-stubs-events)
 
 target_sources(mbed-stubs-events
