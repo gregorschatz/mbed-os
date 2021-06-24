@@ -121,7 +121,6 @@ target_include_directories(mbed-stubs-headers
 
 add_subdirectory(connectivity)
 add_subdirectory(events)
-add_subdirectory(hal)
 add_subdirectory(platform)
 add_subdirectory(rtos)
 add_subdirectory(storage)
