@@ -59,5 +59,6 @@ target_link_libraries(mbed-stubs-connectivity
     PRIVATE
         mbed-headers
         mbed-stubs-headers
+        mbed-stubs-cellular-headers
         gtest
 )
